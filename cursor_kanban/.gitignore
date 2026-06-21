@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+dist/
+
+# environment
+.env*
+
+# testing
+coverage/
+test-results/
+playwright-report/
+playwright/.cache/
+
+# misc
+.DS_Store
+*.pem
+*.tsbuildinfo
