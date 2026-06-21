@@ -40,7 +40,7 @@ export default function Column({ column }: ColumnProps) {
   const cards = column.cardIds.map((cardId) => board.cards[cardId]).filter(Boolean);
 
   return (
-    <div className="bg-gray-50 rounded-lg p-4 w-80 flex-shrink-0 flex flex-col h-full">
+    <div className="bg-gray-50 rounded-lg p-4 w-64 flex-shrink-0 flex flex-col h-full">
       <div className="mb-4">
         {isEditing ? (
           <input

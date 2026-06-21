@@ -73,7 +73,7 @@ export default function Board() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-8">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-[1600px] mx-auto">
         <header className="mb-8">
           <h1 className="text-4xl font-bold text-[#032147] mb-2">Kanban Board</h1>
           <div className="h-1 bg-[#ecad0a] rounded-full w-32"></div>
